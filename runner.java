@@ -9,8 +9,10 @@ public class runner {
         Thread t1 = new Thread(n);
         Thread t2 = new Thread(n);
     
-        t2.start();
         t1.start();
+        t2.start();
+
+        
             
         
     }
